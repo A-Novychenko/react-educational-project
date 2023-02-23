@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/react-educational-project.git/static/css/main.cb44d1ef.css",
+    "main.js": "/react-educational-project.git/static/js/main.7248cd1d.js",
+    "index.html": "/react-educational-project.git/index.html",
+    "main.cb44d1ef.css.map": "/react-educational-project.git/static/css/main.cb44d1ef.css.map",
+    "main.7248cd1d.js.map": "/react-educational-project.git/static/js/main.7248cd1d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cb44d1ef.css",
+    "static/js/main.7248cd1d.js"
+  ]
+}
