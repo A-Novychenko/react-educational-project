@@ -9,7 +9,7 @@ import { Container, Nav, NavLinkStyled } from './App.styled';
 export const App = () => {
   return (
     <Container>
-      <div>
+      <header>
         <Nav>
           <NavLinkStyled to="/" end>
             Home
@@ -17,18 +17,14 @@ export const App = () => {
           <NavLinkStyled to="/stack">Stack</NavLinkStyled>
           <NavLinkStyled to="/projects">Projects</NavLinkStyled>
         </Nav>
+      </header>
 
-        <Routes>
-          <Route path="/" element={<Home />}></Route>
-          <Route path="/stack" element={<Stack />}></Route>
-          <Route path="/projects" element={<Projects />}></Route>
-          <Route path="*" element={<NotFound />}></Route>
-        </Routes>
-      </div>
-
-      {/* <Home />
-        <Stack />
-        <Projects /> */}
+      <Routes>
+        <Route path="/" element={<Home />}></Route>
+        <Route path="/stack" element={<Stack />}></Route>
+        <Route path="/projects" element={<Projects />}></Route>
+        <Route path="*" element={<NotFound />}></Route>
+      </Routes>
     </Container>
   );
 };
