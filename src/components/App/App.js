@@ -2,19 +2,19 @@ import { Home } from 'pages/Home';
 import { NotFound } from 'pages/NotFound';
 import { Projects } from 'pages/Projects';
 import { Stack } from 'pages/Stack';
-import { NavLink, Route, Routes } from 'react-router-dom';
+import { Route, Routes } from 'react-router-dom';
 
-import { Container } from './App.styled';
+import { Container, Nav, NavLinkStyled } from './App.styled';
 
 export const App = () => {
   return (
     <Container>
       <div>
-        <nav>
-          <NavLink to="/">Home</NavLink>
-          <NavLink to="/stack">Stack</NavLink>
-          <NavLink to="/projects">Projects</NavLink>
-        </nav>
+        <Nav>
+          <NavLinkStyled to="/">Home</NavLinkStyled>
+          <NavLinkStyled to="/stack">Stack</NavLinkStyled>
+          <NavLinkStyled to="/projects">Projects</NavLinkStyled>
+        </Nav>
 
         <Routes>
           <Route path="/" element={<Home />}></Route>
