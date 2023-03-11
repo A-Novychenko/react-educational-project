@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/goit-react-hw-04-feedback/static/css/main.c3d5249d.css",
-    "main.js": "/goit-react-hw-04-feedback/static/js/main.5694f5f0.js",
-    "static/media/myPhoto.jpg": "/goit-react-hw-04-feedback/static/media/myPhoto.ab1807c458fbf86d5edc.jpg",
-    "static/media/cssLogo.png": "/goit-react-hw-04-feedback/static/media/cssLogo.8a182087615a3845ebac.png",
-    "static/media/htmlLogo.png": "/goit-react-hw-04-feedback/static/media/htmlLogo.91518ae5308ce01c78ce.png",
-    "static/media/reactLogo.png": "/goit-react-hw-04-feedback/static/media/reactLogo.428839d4924b447d4d50.png",
-    "static/media/plug.jpg": "/goit-react-hw-04-feedback/static/media/plug.4f39e6214c03668d2fff.jpg",
-    "static/media/jsLogo.png": "/goit-react-hw-04-feedback/static/media/jsLogo.2840e272f3582fbab1c1.png",
-    "index.html": "/goit-react-hw-04-feedback/index.html",
-    "main.c3d5249d.css.map": "/goit-react-hw-04-feedback/static/css/main.c3d5249d.css.map",
-    "main.5694f5f0.js.map": "/goit-react-hw-04-feedback/static/js/main.5694f5f0.js.map"
+    "main.css": "/react-educational-project/static/css/main.c3d5249d.css",
+    "main.js": "/react-educational-project/static/js/main.abeed3dd.js",
+    "static/media/myPhoto.jpg": "/react-educational-project/static/media/myPhoto.ab1807c458fbf86d5edc.jpg",
+    "static/media/cssLogo.png": "/react-educational-project/static/media/cssLogo.8a182087615a3845ebac.png",
+    "static/media/htmlLogo.png": "/react-educational-project/static/media/htmlLogo.91518ae5308ce01c78ce.png",
+    "static/media/reactLogo.png": "/react-educational-project/static/media/reactLogo.428839d4924b447d4d50.png",
+    "static/media/plug.jpg": "/react-educational-project/static/media/plug.4f39e6214c03668d2fff.jpg",
+    "static/media/jsLogo.png": "/react-educational-project/static/media/jsLogo.2840e272f3582fbab1c1.png",
+    "index.html": "/react-educational-project/index.html",
+    "main.c3d5249d.css.map": "/react-educational-project/static/css/main.c3d5249d.css.map",
+    "main.abeed3dd.js.map": "/react-educational-project/static/js/main.abeed3dd.js.map"
   },
   "entrypoints": [
     "static/css/main.c3d5249d.css",
-    "static/js/main.5694f5f0.js"
+    "static/js/main.abeed3dd.js"
   ]
 }
