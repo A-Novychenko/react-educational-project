@@ -11,7 +11,9 @@ export const App = () => {
     <Container>
       <div>
         <Nav>
-          <NavLinkStyled to="/">Home</NavLinkStyled>
+          <NavLinkStyled to="/" end>
+            Home
+          </NavLinkStyled>
           <NavLinkStyled to="/stack">Stack</NavLinkStyled>
           <NavLinkStyled to="/projects">Projects</NavLinkStyled>
         </Nav>
