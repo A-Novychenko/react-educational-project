@@ -1,3 +1,4 @@
+// import { Link, Outlet } from 'react-router-dom';
 import myPhoto from '../../img/myPhoto.jpg';
 import { Wrapper } from './Home.styled';
 
@@ -23,5 +24,13 @@ export const Home = () => (
         voluptas nulla pariatur?
       </p>
     </Wrapper>
+    {/* <Wrapper>
+      <div>
+        <Link to="work">WORK</Link>
+        <Link to="education">Education</Link>
+
+        <Outlet />
+      </div>
+    </Wrapper> */}
   </main>
 );

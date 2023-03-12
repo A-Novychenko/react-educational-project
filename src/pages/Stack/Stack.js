@@ -5,6 +5,7 @@ import reactLogo from '../../img/mystack/reactLogo.png';
 import gitLogo from '../../img/mystack/gitLogo.png';
 import { Wrapper } from 'pages/Home';
 import { Item } from './Stack.styled';
+import { Link, Outlet } from 'react-router-dom';
 
 export const Stack = () => (
   <main>
@@ -28,6 +29,14 @@ export const Stack = () => (
         {' '}
         <img src={gitLogo} alt="HTML" width="320" />
       </Item>
+    </Wrapper>
+    <Wrapper>
+      <div>
+        <Link to="work">WORK</Link>
+        <Link to="education">Education</Link>
+
+        <Outlet />
+      </div>
     </Wrapper>
   </main>
 );
