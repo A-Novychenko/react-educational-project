@@ -6,8 +6,17 @@ export const CardLink = styled(NavLink)`
   color: green;
 `;
 export const Wrapper = styled.ul`
-  display: flex;
+  /* display: flex;
   flex-wrap: wrap;
+  gap: 20px; */
+
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 240px);
+  gap: 40px;
+
+  width: 1080px;
+  margin-left: auto;
+  margin-right: auto;
 
   padding-top: 40px;
   padding-bottom: 40px;
@@ -18,7 +27,11 @@ export const Title = styled.h2`
 `;
 
 export const Item = styled.li`
+  /* margin-left: auto;
+  margin-right: auto; */
   padding: 24px;
+  /* width: 320px; */
+
   flex-basis: calc((100% - 60px) / 3);
   border: 1px solid green;
   border-radius: 8px;

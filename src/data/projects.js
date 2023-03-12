@@ -27,6 +27,24 @@ const projects = [
       'TODO - a note-taking application that stores data on the backend. The project is made in an impromptu design, developed using react',
     stack: 'HTML, CSS, JS, React',
   },
+  {
+    id: 5,
+    title: 'X-0',
+    description: 'tic-tac-toe game',
+    stack: 'HTML, CSS, JS',
+  },
+  {
+    id: 6,
+    title: 'Metalbudukraine',
+    description: 'Landing page',
+    stack: 'HTML, CSS, JS',
+  },
+  {
+    id: 7,
+    title: 'Massage studio NM',
+    description: 'Landing page',
+    stack: 'HTML, CSS, JS',
+  },
 ];
 
 export const getProjects = () => {
