@@ -1,6 +1,7 @@
 import { Home } from 'pages/Home';
 import { NotFound } from 'pages/NotFound';
 import { Projects } from 'pages/Projects';
+import { ProjectDetails } from 'pages/ProjectsDetails';
 import { Stack } from 'pages/Stack';
 import { Route, Routes } from 'react-router-dom';
 
@@ -11,7 +12,7 @@ export const App = () => {
     <Container>
       <header>
         <Nav>
-          <NavLinkStyled to="/" end>
+          <NavLinkStyled to="react-educational-project/" end>
             Home
           </NavLinkStyled>
           <NavLinkStyled to="/stack">Stack</NavLinkStyled>
@@ -20,9 +21,10 @@ export const App = () => {
       </header>
 
       <Routes>
-        <Route path="/" element={<Home />}></Route>
+        <Route path="react-educational-project/" element={<Home />}></Route>
         <Route path="/stack" element={<Stack />}></Route>
         <Route path="/projects" element={<Projects />}></Route>
+        <Route path="/projects/:id" element={<ProjectDetails />}></Route>
         <Route path="*" element={<NotFound />}></Route>
       </Routes>
     </Container>
